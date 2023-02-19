@@ -1,0 +1,24 @@
+.outer{
+  display: inline-block;
+  
+  align-items: flex-start;
+}
+.inner{
+  background-color: rgb(146, 167, 204);
+  width:350px;
+  height:250px;
+  margin: 30px 30px 30px 60px;
+  cursor: pointer;
+}
+.inner:hover{
+
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s linear;
+}
+.inner img{
+  margin-left:23px;
+}
+.inner h2{
+  text-align: center;
+  margin: 10px;
+}
